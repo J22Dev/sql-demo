@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+.container {
+  @apply max-w-7xl xl:max-w-7xl px-4 mx-auto;
+}
+
+body {
+  @apply bg-gray-200;
+}
